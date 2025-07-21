@@ -6,13 +6,13 @@ Survey data and catch estimates in 2003–2022 from the Hawaii Marine Recreation
 ## Prerequisites
 
 ## Installing
-Three R packages to read SAS data files ("sas7bdat') and to smooth time-series data with moving average ("zoo") or Kalman Filter and Smoother ("KFAS")
-library(sas7bdat)
-library(zoo)
-library(KFAS)
+Three R packages need to be installed to read SAS data files ("sas7bdat') and to smooth time-series data with moving average ("zoo") or Kalman Filter and Smoother ("KFAS")
+
 ## Resources
 Ma, H., and Ogawa, T. (2016). Hawaii Marine Recreational Fishing Survey: A Summary of Current Sampling, Estimation, and Data Analyses. NOAA Tech. Memo., NOAA-TM-NMFS-PIFSC-55, 43 p. http://dx.doi.org/10.7289/V5/TM-PIFSC-55
+
 Ma, H., Matthews, T., Syslo, J., Ducharme-Barth, N. 2023. Non-commercial Catch Estimation for Deep7 Bottomfish in the Main Hawaiian Islands. In: Joint Statistical Meetings 2023. Toronto, Canada. https://doi.org/10.5281/zenodo.8388018.
+
 Syslo J., Oshima M., Ma H., Ducharme-Barth N., Nadon M., Carvalho, F. (2024). Benchmark stock assessment for the main Hawaiian Islands Deep 7 bottomfish complex in 2024 with catch projections through 2029. Department of Commerce. NOAA Stock Assessment Report. NMFS-PIFSC-157. doi:10.25923/5ssg-8d54
 ## Version Control Platform
 - Git
