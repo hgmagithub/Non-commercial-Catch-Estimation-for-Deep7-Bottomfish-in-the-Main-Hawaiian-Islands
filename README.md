@@ -1,13 +1,19 @@
-# [PROJECT NAME]
+# Non-commercial Catch Estimation for Deep7 Bottomfish in the Main Hawaiian Islands
 
 ## Overview
+Survey data and catch estimates in 2003–2022 from the Hawaii Marine Recreational Fishing Survey (HMRFS) were evaluated to obtain non-commercial catch weight estimates for the main Hawaiian Islands Deep7 bottomfish complex. The current HMRFS estimates do not distinguish between catch to be sold vs. catch not for sale from expense fishers (who sometimes sell fish to cover fishing expenses) or part-time commercial fishers. Fishers selling the catch are required to report the number of fish and weight landed in a commercial reporting system. To provide a non-commercial catch estimate (product of catch rate and fishing effort), catch claimed as unsold in HMRFS was used for catch rate estimation. The catch rate estimates were smoothed by a Kalman filter to reduce unrealistically large fluctuations in annual catch estimates. Fishing effort estimates from a previous telephone survey were adjusted to make the effort estimates similar to the current mail survey for fishing effort. The non-commercial catch estimates from this study have been used in combination with the reported catch from the mandatory commercial fishing reports to obtain total fish removal for the Deep7 bottomfish benchmark stock assessment in 2024.
 
 ## Prerequisites
 
 ## Installing
-
+Three R packages to read SAS data files ("sas7bdat') and to smooth time-series data with moving average ("zoo") or Kalman Filter and Smoother ("KFAS")
+library(sas7bdat)
+library(zoo)
+library(KFAS)
 ## Resources
-
+Ma, H., and Ogawa, T. (2016). Hawaii Marine Recreational Fishing Survey: A Summary of Current Sampling, Estimation, and Data Analyses. NOAA Tech. Memo., NOAA-TM-NMFS-PIFSC-55, 43 p. http://dx.doi.org/10.7289/V5/TM-PIFSC-55
+Ma, H., Matthews, T., Syslo, J., Ducharme-Barth, N. 2023. Non-commercial Catch Estimation for Deep7 Bottomfish in the Main Hawaiian Islands. In: Joint Statistical Meetings 2023. Toronto, Canada. https://doi.org/10.5281/zenodo.8388018.
+Syslo J., Oshima M., Ma H., Ducharme-Barth N., Nadon M., Carvalho, F. (2024). Benchmark stock assessment for the main Hawaiian Islands Deep 7 bottomfish complex in 2024 with catch projections through 2029. Department of Commerce. NOAA Stock Assessment Report. NMFS-PIFSC-157. doi:10.25923/5ssg-8d54
 ## Version Control Platform
 - Git
 
