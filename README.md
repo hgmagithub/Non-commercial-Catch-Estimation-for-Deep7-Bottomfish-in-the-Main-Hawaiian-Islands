@@ -5,7 +5,8 @@ Survey data and catch estimates in 2003–2022 from the Hawaii Marine Recreation
 
 ## R scripts and data files
 The R script in the "R Scripts" folder can estimate total catch in HMRFS. The total catch estimates can be compared with the estimates (including variance) queried from the NOAA Fisheries Marine Recreational Information Program (https://www.fisheries.noaa.gov/data-tools/recreational-fisheries-statistics-queries). The proportion of non-sold catch was also estimated in the R script to compare with the proportion estimates from Ma et al. 2019. When "catch_type" is set as "Non-sold catch', the catch with dispostion "sold/to be sold" is not read into R and the catch estimation is for unsold catch. 
-The "meanweight" file include the mean weight for seven bottomfish species based on the mean of measured and lenghth-drived weights during 2003-2022. The "Mutiplier" are for the calibration of fishing effort estimates from the previous Coastal Household Telephone Survey (2003-2017) to make the effort estimates comparable with the estimates from the current Fishing Effort Survey (mail survey).
+
+The "meanweight" file in the "Data" folder include the mean weight for seven bottomfish species based on the mean of measured and lenghth-drived weights during 2003-2022. The "Mutiplier" are for the calibration of fishing effort estimates from the previous Coastal Household Telephone Survey (2003-2017) to make the effort estimates comparable with the estimates from the current Fishing Effort Survey (mail survey).
 ## Installing
 Three R packages need to be installed to read SAS data files ("sas7bdat') and to smooth time-series data with Kalman Filter and Smoother ("KFAS") or moving average ("zoo").
 
