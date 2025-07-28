@@ -15,7 +15,7 @@ Ma, H., and Ogawa, T. (2016). Hawaii Marine Recreational Fishing Survey: A Summa
 
 Ma, H., Matthews, T., Syslo, J., Ducharme-Barth, N. 2023. Non-commercial Catch Estimation for Deep7 Bottomfish in the Main Hawaiian Islands. In: Joint Statistical Meetings 2023. Toronto, Canada. https://doi.org/10.5281/zenodo.8388018.
 
-Syslo J., Oshima M., Ma H., Ducharme-Barth N., Nadon M., Carvalho, F. (2024). Benchmark stock assessment for the main Hawaiian Islands Deep 7 bottomfish complex in 2024 with catch projections through 2029. Department of Commerce. NOAA Stock Assessment Report. NMFS-PIFSC-157. https://doi:10.25923/5ssg-8d54
+Syslo J., Oshima M., Ma H., Ducharme-Barth N., Nadon M., Carvalho, F. (2024). Benchmark stock assessment for the main Hawaiian Islands Deep 7 bottomfish complex in 2024 with catch projections through 2029. Department of Commerce. NOAA Stock Assessment Report. NMFS-PIFSC-157. http://doi:10.25923/5ssg-8d54
 ## Version Control Platform
 - Git
 
